@@ -1,10 +1,61 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(login4.jpg);
-    overflow: hidden;
+    background-image: url(login4.jpg);
+    /* overflow: hidden; */
     background-size: cover;
-    /* background-position: center; */
+    /* background-position: center;  */
     font-family: sans-serif;
     background-repeat: no-repeat; 
 }
+.signup{
+    /* width: 600px; */
+    padding: 10% 0 0;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    margin: 50px auto 100px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    /* text-align: center; */
+  }
+
+  .form input{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: rgb(197, 192, 192); 
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form input[type="password"]{
+    background-color: rgb(197, 192, 192);
+    margin: 0 0 15px;
+    width: 100%;
+    outline: 1;
+    box-sizing: border-box;
+  }
+  .form label{
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+  }
+  .form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }

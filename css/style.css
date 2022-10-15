@@ -1,13 +1,13 @@
-body{
+/* body.login{
     margin: 0;
     padding: 0;
     background: url(login3.jpg);
-    overflow: hidden;
-    background-size: cover;
+    /* overflow: hidden; */
+    /* background-size: cover;
     /* background-position: center; */
-    font-family: sans-serif;
+    /* font-family: sans-serif;
     background-repeat: no-repeat; 
-}
+} */ 
 
 .login-box{
     width: 320px;
@@ -76,3 +76,12 @@ h1{
     cursor: pointer;
     background: #39dc79;
 }
+
+footer {
+    background-color: #2b2b2b;
+    /* display: flex; */
+    text-align: center;
+    color: #fff;
+    padding: 0.5em 0.5em 0.5em;
+  
+  }
